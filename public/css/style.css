@@ -1,0 +1,27 @@
+html,
+body {
+    margin:0;
+    padding:0;
+    height:100%;
+}
+#app {
+    min-height:100%;
+    position:relative;
+    padding-bottom:60px;   /* Height of the footer */
+}
+#footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:60px;   /* Height of the footer */
+    background:#222222;
+    color: #fff;
+    line-height: 60px;
+}
+.navpad {
+    height: 51px;
+}
+.navbar-brand>img{
+    height: 25px;
+    margin-top: -2px;
+}

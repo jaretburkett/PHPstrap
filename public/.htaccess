@@ -1,0 +1,13 @@
+RewriteEngine On
+Options +FollowSymLinks
+RewriteEngine On
+RewriteRule ^([\w-]+)/([\w-]+)/([\w-]+)/([\w-]+)/([\w-]+)/([\w-]+)/([\w-]+)/([\w-]+)/([\w-]+)/([\w-]+)/?$ index.php?var1=$1&var2=$2&var3=$3&var4=$4&var5=$5&var6=$6&var7=$7&var8=$8&var9=$9&var10=$10 [L]
+RewriteRule ^([\w-]+)/([\w-]+)/([\w-]+)/([\w-]+)/([\w-]+)/([\w-]+)/([\w-]+)/([\w-]+)/([\w-]+)/?$ index.php?var1=$1&var2=$2&var3=$3&var4=$4&var5=$5&var6=$6&var7=$7&var8=$8&var9=$9 [L]
+RewriteRule ^([\w-]+)/([\w-]+)/([\w-]+)/([\w-]+)/([\w-]+)/([\w-]+)/([\w-]+)/([\w-]+)/?$ index.php?var1=$1&var2=$2&var3=$3&var4=$4&var5=$5&var6=$6&var7=$7&var8=$8 [L]
+RewriteRule ^([\w-]+)/([\w-]+)/([\w-]+)/([\w-]+)/([\w-]+)/([\w-]+)/([\w-]+)/?$ index.php?var1=$1&var2=$2&var3=$3&var4=$4&var5=$5&var6=$6&var7=$7 [L]
+RewriteRule ^([\w-]+)/([\w-]+)/([\w-]+)/([\w-]+)/([\w-]+)/([\w-]+)/?$ index.php?var1=$1&var2=$2&var3=$3&var4=$4&var5=$5&var6=$6 [L]
+RewriteRule ^([\w-]+)/([\w-]+)/([\w-]+)/([\w-]+)/([\w-]+)/?$ index.php?var1=$1&var2=$2&var3=$3&var4=$4&var5=$5 [L]
+RewriteRule ^([\w-]+)/([\w-]+)/([\w-]+)/([\w-]+)/?$ index.php?var1=$1&var2=$2&var3=$3&var4=$4 [L]
+RewriteRule ^([\w-]+)/([\w-]+)/([\w-]+)/?$ index.php?var1=$1&var2=$2&var3=$3 [L]
+RewriteRule ^([\w-]+)/([\w-]+)/?$ index.php?var1=$1&var2=$2 [L]
+RewriteRule ^([\w-]+)/?$ index.php?var1=$1 [L]
