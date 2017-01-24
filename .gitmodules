@@ -1,6 +1,0 @@
-[submodule "public/scripts/PHPMailer"]
-	path = public/scripts/PHPMailer
-	url = https://github.com/therecluse26/PHPMailer.git
-[submodule "public/login/scripts/PHPMailer"]
-	path = public/login/scripts/PHPMailer
-	url = https://github.com/PHPMailer/PHPMailer.git
